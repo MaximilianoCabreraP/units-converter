@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        'auto-fit-meme': 'repeat(auto-fill, minmax(200px, 1fr))',
+      }
+    },
   },
   plugins: [],
 }
